@@ -9,10 +9,10 @@ import org.springframework.data.annotation.Id;
 
 @Entity
 @Data
-@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "ImageData")
+@Builder
 public class ImageData {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
